@@ -39,6 +39,7 @@ header{
     padding: 5px 10px;
 }
 
+/* Inizio demo application */
 .container-demo{
     width: 100%;
     display: flex;
@@ -119,5 +120,70 @@ header{
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+}
+/* Fine demo application */
+
+/* Inizio planning */
+
+.planning{
+    background-color: #9792e4;
+}
+
+.planning-container{
+    width: 60%;
+    margin:auto;
+    padding: 2rem;
+}
+
+.col-left img{
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 60px;
+}
+
+.planning-container .columns{
+    align-items: flex-end;
+}
+
+.planning-container .col-left{
+    width: 50%;
+    padding: 30px;
+}
+
+.col-left h2 , .col-left p{
+   color: white;
+   font-family: sans-serif;
+   padding: 20px;
+   line-height: 20px;
+}
+
+.planning-container .col-right{
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+
+
+.col-right img{
+    width: 70%;
+}
+
+.col-right i{
+    background-color: #9792e4;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.col-right, h3, p{
+    padding: 1rem;
+}
+
+.col-right p{
+    font-style: oblique;
 }
 
