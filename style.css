@@ -151,7 +151,7 @@ header{
     padding: 30px;
 }
 
-.col-left h2 , .col-left p{
+.planning-container .col-left h2 , .planning-container .col-left p{
    color: white;
    font-family: sans-serif;
    padding: 1rem;
@@ -174,7 +174,7 @@ header{
     width: 70%;
 }
 
-.col-right i{
+.planning .col-right i{
     background-color: #9792e4;
     border-radius: 30px;
     padding: 1rem;
@@ -290,16 +290,59 @@ header{
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding: 3rem;
+    font-family: sans-serif;
 }
 
 .about-container .col-left{
-    width: 45%;
+    width: 70%;
     color: black;
 }
 
 .col-left .black{color:black;}
 
 .about-container .col-right{
-    width: 45%;
+    width: 30%;
 }
 
+.about-container .col-left h1{
+    color: #9792e4;
+    font-size: 30pt;
+    padding: 1rem;
+}
+
+.about-container .col-left p{
+    padding: 1rem;
+    color: #5a6e7f;
+}
+
+.about-container .col-right img{
+border-radius: 50%;
+}
+
+.about-container .col-right p{
+    color: #9792e4;
+    font-style: inherit;
+    font-size: 16pt;
+    width: 57%;
+}
+
+.about-container .col-right a{
+    text-decoration: none;
+    color: white;
+    background-color: #9792e4;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.img-container{
+    position: relative;
+}
+
+.pippo{
+    position: absolute;
+    top: 0;
+    left: calc(85% - 70pt);
+    font-size: 70pt;
+    color: #9792e4;
+}
