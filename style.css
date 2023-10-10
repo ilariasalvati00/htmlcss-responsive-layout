@@ -403,3 +403,22 @@ font-size: 9pt;
 .white{
     color: white;
 }
+/* Fine get started */
+/* Footer */
+footer{
+    background-color: #333333;
+}
+.footer-container{
+    width: 30%;
+    min-height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.footer-container p, .footer-container div{
+    color: white;
+}
