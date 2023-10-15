@@ -440,6 +440,7 @@ footer{
         flex-direction: column;
         flex-wrap: no-wrap;
         align-items: center;
+        width: 90%;
     }
     
     .box{
@@ -448,5 +449,164 @@ footer{
 
     .large{
         width: 90%;
+    }
+
+    .columns{
+        flex-direction: column;
+    }
+
+    .box .col-left, .box .col-right{
+        width:100%;
+    }
+
+    .box .col-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .planning-container{
+        width: 95%;
+    }
+    .planning-container .col-left{
+        width: 100%;
+        padding: 0;
+    }
+    .planning-container .col-right{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .testimonials-container{
+        width: 50%;
+        line-height: 20px;
+    }
+
+    .testimonials-container .test img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .testimonials-container .test{
+        flex-direction: column;
+    }
+
+    .benefits-container{
+        width: 100%;
+    }
+
+    .benefit-box-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .benefit-box{
+        width: 90%;
+    }
+
+    .about-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .about-container .col-left p{
+        line-height: 30px;
+    }
+
+    .about-container .col-right{
+        width: 100%;
+    }
+    .about-container .col-right p{
+        width: 100%;
+    }
+
+    .get-started-container{
+        width: 100%;
+    }
+    .get-startedx p{
+        width: 80%;
+        line-height: 30px;
+    }
+    .footer-container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .header-container .link, .header-container .button{
+        display: none;
+    }
+
+    .header-container .burger{
+        display: initial;
+    }
+    
+    .box{
+        width: 31%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .large{
+        width: 65%;
+    }
+
+    .columns{
+        flex-direction: column;
+    }
+
+    .box .col-left, .box .col-right{
+        width:100%;
+    }
+
+    .box .col-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .planning-container{
+        width: 95%;
+    }
+    .planning-container .col-left{
+        width: 100%;
+        padding: 0;
+    }
+    .planning-container .col-right{
+        width: 100%;
+        margin-left: 0;
+    }
+   
+    .benefits-container{
+        width: 100%;
+    }
+    .benefit-box{
+        width: 45%;
+    }
+
+    .about-container{
+        width: 95%;
+    }
+    .about-container .col-left{
+        width: 60%;
+    }
+    .about-container .col-left p{
+        line-height: 30px;
+    }
+    .about-container .col-right{
+        width: 40%;
+    }
+    .about-container .col-right p{
+        width: 100%;
+    }
+
+    .get-started-container{
+        width: 100%;
+    }
+    .get-startedx p{
+        width: 80%;
+        line-height: 30px;
+    }
+    .footer-container{
+        width: 70%;
     }
 }
